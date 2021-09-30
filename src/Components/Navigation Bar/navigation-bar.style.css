@@ -1,0 +1,25 @@
+.navigation-bar {
+  padding: 1rem;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1); */
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-weight: 800;
+  margin-right: 1rem;
+  font-size: larger;
+  color: black;
+}
+.categories {
+  cursor: pointer;
+}
+
+.navigation-links {
+  display: flex;
+}

@@ -1,0 +1,28 @@
+.cart-price-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1.5rem;
+  align-items: center;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.checkout-button {
+  font-size: medium;
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid black;
+}
+.checkout-button:hover {
+  background-color: white;
+  color: black;
+}
+.price {
+  font-weight: bold;
+}

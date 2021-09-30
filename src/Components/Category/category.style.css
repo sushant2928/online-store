@@ -1,0 +1,19 @@
+.category {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 18rem;
+  align-items: center;
+  cursor: pointer;
+}
+.category:hover {
+  background-color: whitesmoke;
+  padding: 1.1rem;
+}
+.category-name {
+  text-transform: capitalize;
+}
+.forward-icon {
+  width: 0.75rem;
+  height: 0.75rem;
+}

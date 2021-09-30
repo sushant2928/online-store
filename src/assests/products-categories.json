@@ -1,0 +1,9 @@
+[
+    {"type":"all"},
+    {"type":"dairy"},
+    {"type":"fruit"},
+    {"type":"vegetable"},
+    {"type":"bakery"},
+    {"type":"meat"}
+]
+

@@ -1,0 +1,42 @@
+.checkout {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.address-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 30%;
+}
+@media (max-width: 576px) {
+  .address-form {
+    width: 80%;
+  }
+}
+
+.form-title {
+  font-size: larger;
+  padding: 1rem 0;
+  font-weight: bold;
+}
+.form-label {
+  padding: 0.5rem 0;
+}
+.form-input {
+  padding: 0.7rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+.form-button {
+  margin: 1rem 0;
+  padding: 0.7rem;
+  border: none;
+  background-color: black;
+  font-size: large;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}

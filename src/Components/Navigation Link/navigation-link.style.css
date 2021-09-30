@@ -1,0 +1,9 @@
+.navigation-link {
+  text-decoration: none;
+  color: gray;
+  font-size: small;
+  padding: 0 0.5rem;
+}
+.navigation-link:hover {
+  color: black;
+}

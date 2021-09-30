@@ -1,0 +1,24 @@
+.quantityController {
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.positiveButton,
+.negativeButton,
+.deleteButton {
+  border: none;
+  background-color: black;
+  color: white;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  font-size: large;
+  cursor: pointer;
+}
+.positiveButton:hover,
+.deleteButton:hover,
+.negativeButton:hover {
+  color: black;
+  background-color: white;
+  border: 1px black solid;
+}

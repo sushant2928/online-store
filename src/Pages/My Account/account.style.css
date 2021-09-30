@@ -1,0 +1,13 @@
+.account {
+  padding: 1rem 1.5rem;
+}
+.authentication-button {
+  margin: 1rem 0;
+  padding: 0.7rem;
+  border: none;
+  background-color: black;
+  font-size: large;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
